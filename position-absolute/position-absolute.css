@@ -1,0 +1,59 @@
+body{
+    height: 1000px;
+    padding: 0;
+    padding-top: 50px;
+    padding-left: 200px;
+}
+
+.nav-bar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: gray;
+    color: white;
+    height: 50px;
+    z-index: 1;
+}
+
+.left-side{
+    position: fixed;
+    left: 0;
+    top:50px;
+    bottom: 0;
+    background-color: coral;
+    color: white;
+    width: 200px;
+}
+
+.div1{
+    height: 100px;
+    width: 100px;
+    background-color: saddlebrown;
+    color: white;
+}
+
+.div2{
+    height: 100px;
+    width: 100px;
+    background-color: lightpink;
+    color: white;
+}
+
+.position-absolute{
+    background-color:green;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+/* This element is inside the left side bar, 
+so its absolute position will be in reference 
+to its parent element  */
+.inside-elem{
+    /* width: 150px; */
+    background-color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
