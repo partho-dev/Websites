@@ -1,0 +1,46 @@
+body{
+    height: 3000px;
+    padding-top: 40px;
+    padding-left: 200px;
+}
+
+.nav-bar{
+    background-color: black;
+    color: white;
+    height: 40px;
+    position:fixed;
+    top: 0;
+    left: 1px;
+    right: 1px;
+    /* bottom: we can not put any bottom here, instead we will give padding on the body to push the object on the body down */
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.grid-box{
+    display: grid;
+    grid-template-columns: 200px 200px 1fr;
+    height: 400px;
+    background-color: lightblue;
+    column-gap: 20px;
+}
+
+.box-1{
+    background-color: lightpink;
+}
+
+.side-bar{
+    background-color: lightseagreen;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top: 40px;
+    width: 200px;
+
+}

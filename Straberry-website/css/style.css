@@ -1,0 +1,72 @@
+/* import fonts */
+
+@font-face {
+    font-family: Railway-regular;
+    src: url(../fonts/Raleway-Regular.ttf);
+}
+
+@font-face {
+    font-family: Railway-medium;
+    src: url(../fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: Railway-bold;
+    src: url(../fonts/Raleway-Bold.ttf);
+}
+
+@font-face {
+    font-family: Railway-semibold;
+    src: url(../fonts/Raleway-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: Railway-black;
+    src: url(../fonts/Raleway-Black.ttf);
+}
+
+/* save colors in a cariable */
+ :root{
+    --primary : #EEBF00;
+    --secondary : #232B38;
+    --ternary : #6C6C6C;
+    --danger : #FE4545;
+    --pure: #FEFEFE;
+    --light: #F0F0F0;
+    --heaven : #FFFFFF;
+    --footer : #2D333f;
+ }
+
+ /* For desktop */
+ .container{
+    width: 100%;
+    padding: 0 15px;
+    /* margine top bottom = 0 & left right = auto brings the container in the middle */
+    margin: 0 auto; 
+ }
+
+ /* For mobiles - Setting the container properties*/
+
+@media (min-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+
+@media (min-width:768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+
+@media (min-width:1200px) {
+    .container{
+        max-width: 1152px;
+    }
+}
