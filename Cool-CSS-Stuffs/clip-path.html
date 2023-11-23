@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clip-path</title>
+    <!-- <link rel="stylesheet" href="clip-path.css"> -->
+
+    <style>
+        .container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(40, 40, 227);
+    /* clip-path:circle() */
+    /* clip-path: polygon(); */
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    /* clip-path: circle(50%); */
+    /* clip-path: circle(250px); */
+    /* clip-path: circle(50% at 0 0); */
+    /* clip-path: path("M12 4.248c-3.148-5.402-12-3.825-12 2.944 0 4.661 5.571 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-6.792-8.875-8.306-12-2.944z");; */
+    transition: all 300ms ease-out;
+}
+.container:hover{
+    clip-path: circle();
+
+}
+
+
+    </style>
+
+</head>
+<body>
+    <p> Clip-path allows to create custom shapes in html </p>
+    <div class="container"></div>
+</body>
+</html>

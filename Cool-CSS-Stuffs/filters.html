@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>filters</title>
+
+
+    <style>
+        img{
+            /* Enable them one by one to see the magic  */
+
+            /* filter: blur(10px); */
+            /* filter: brightness(150%); */
+            /* filter: grayscale(200%); */
+            filter: contrast(200%);
+
+        }
+
+        img:hover{
+            filter: none;
+            /* transform: scale(2); */
+            /* transform: rotate(10deg); */
+            /* transition: transform 2s ease; */
+            transition: filter 2s ease;
+        }
+    </style>
+
+</head>
+<body>
+    <img src="../assets/flower.jpg" alt="flower">
+</body>
+</html>

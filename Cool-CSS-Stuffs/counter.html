@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter without JS</title>
+
+    <style>
+        .container{
+            line-height: 2px;
+            counter-reset: myCounter;
+
+        }
+
+        .container h4::before{
+            /* This line enables the counter  */
+            content: counter(myCounter) ":" ;
+
+            /* This line enbales the count automatically and increases  */
+            counter-increment: myCounter;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1> I like </h1>
+        <h4> Devops </h4>
+        <h4> Linux </h4>
+        <h4> Cloud </h4>
+        <h4> JS </h4>
+        <h4> HTML</h4>
+        <h4>CSS </h4>
+    </div>
+</body>
+</html>

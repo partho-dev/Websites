@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Types</title>
+
+    <style>
+        .input{
+            padding: 20px;
+
+        /* Change the color of the cursor  */
+            caret-color: red;
+        }
+        /* there is an outline by default on the box
+        To remove the outline  */
+         .input:focus{
+            outline: none;
+            /* outline:1px solid red; */
+         }   
+
+        /* To do any changes on the placeholders like color padding etc  */
+         .input::placeholder{
+            /* padding-left: 1px; */
+            color: lightseagreen;
+            /* font-size: 20px; */
+         }
+
+    </style>
+
+</head>
+<body>
+    <input class="input" type="text" name="name" id="name" placeholder="Type your name">
+</body>
+</html>

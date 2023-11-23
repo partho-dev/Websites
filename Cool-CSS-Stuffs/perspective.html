@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perspective - Make cool 3D effect</title>
+    <!-- <link rel="stylesheet" href="perspective.css"> -->
+
+    <style>
+        .frame{
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    perspective: 100px;
+}
+
+
+.shape{
+    width: 500px;
+    height: 500px;
+    background-color: lightgreen;
+    /* transform X & Y also rotates, but as they are 2D, they are not visible */
+    /* But if we keep the transform and use perspective on parent, we can see the effect */
+    /* transform: rotateX(45deg); */
+    /* transform: rotateY(45deg);
+    transition: all 2s ease; */
+}
+
+.shape:hover{
+
+    transform: rotateY(-45deg );
+    transition: all 2s ease;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <p> Make cool 3d Effect</p>
+        <div class="frame">
+            <div class="shape">
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
