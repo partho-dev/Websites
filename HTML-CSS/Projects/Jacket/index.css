@@ -1,0 +1,199 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilory";
+}
+
+html{
+        font-size: 62.5%;
+    }
+ body{
+        font-size: 1.6rem;
+    }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color:#D0D4CA; */
+    /* background-color: rgb(153, 149, 149); */
+}
+
+.nav{
+    /* background-color: red; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 40px;
+    padding:0 80px;
+}
+
+.nav h5{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.nav i{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.parasection{
+    /* background-color: red; */
+    /* height: 80px; */
+    width: 100%;
+    padding: 10px 80px ;
+}
+
+.parasection h1{
+    font-weight: 400;
+    /* font-size: 80px; */
+    font-size: 6vw;
+    /* line-height: 85px; */
+    line-height: 5vw;
+}
+
+.middle{
+    margin-top: 30px;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+}
+
+.middle p{
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.5vw;
+    /* padding: 0 80px; */
+}
+
+.middle-right {
+    width: 20%;
+}
+
+.elem{
+    padding: 20px 0;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.elem:hover a {
+    text-decoration: underline;
+}
+
+.elem i {
+    opacity: 0;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.elem:hover i{
+    opacity: 1;
+}
+
+.video-last{
+    width: 100%;
+    height: 30%;
+    /* background-color: red; */
+    background: url("./model.avif");
+    background-size: cover;
+    background-position: 0 30%;
+    
+}
+
+@media (max-width:600px) {
+
+    .nav{
+    /* background-color: red; */
+    /* height: 30px; */
+    width: 100%;
+    gap: 20px;
+    padding:0 20px;
+}
+
+.nav h5{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.nav i{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.parasection{
+    /* background-color: red; */
+    /* height: 80px; */
+    width: 100%;
+    padding: 10px 20px ;
+}
+
+.parasection h1{
+    font-weight: 200;
+    /* font-size: 80px; */
+    font-size: 9vw;
+    /* line-height: 85px; */
+    line-height: 9vw;
+}
+
+.middle{
+    margin-top: 10px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.middle p{
+    font-size: 4vw;
+    font-weight: 400;
+    line-height: 4vw;
+    /* padding: 0 10px; */
+    margin-bottom: 20px;
+}
+
+.middle-right{
+    width: 100%;
+}
+
+.elem{
+    margin-top: 10px;
+    padding: 10px 0;
+    border-top: 2px solid black;
+}
+
+.elem a {
+    color: black;
+    text-decoration: none;
+    font-size: 3vw;
+    font-weight: 400;
+}
+
+
+.elem i {
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+
+}

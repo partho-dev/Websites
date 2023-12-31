@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilory";
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color:#D0D4CA; */
+    background-color: rgba(20, 19, 19, 0.821);
+}
+
+.subscribe-btn{
+    height: 36px;
+    width: 105px;
+    margin: 20px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.join-btn {
+    height: 36px;
+    width: 65px;
+    border: 1px solid blue;
+    border-radius: 2px;    
+
+}
+
+.tweet-btn {
+    height: 36px;
+    width: 65px;
+    margin-left: 20px;
+    border: none;
+    border-radius: 18px;
+    background-color: blue;
+    color: white;
+    font-weight: 200;
+}
+
+.uber-btn{
+    margin-left: 20px;
+    height: 40px;
+    width: 100px;
+    background-color: black;
+    color: white;
+    border: none;
+    font-weight: 500;
+
+}
+
+.amazon-btn{
+    height: 36px;
+    width: 150px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(255, 216, 20);
+    margin-left: 20px;
+
+}
+
+.github-btn{
+    height: 36px;
+    margin-left: 20px;
+    width: 100px;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.bootstrap-icon{
+    height: 60px;
+    width: 250px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.started-btn{
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    background-color: rgb(121, 82, 179);
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 4px;
+    opacity: .9;
+    margin: 10px;
+    
+}
+
+.download-btn{
+    height: 40px;
+    width: 120px;
+    margin: 10px;
+    background-color: #fff;
+    border: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    opacity: .7;
+}

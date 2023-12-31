@@ -1,0 +1,59 @@
+/*  
+ .parent-1{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .parent-2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+ }
+
+ .child-1a{
+    background-color: lightblue;
+ }
+
+ .child-1b{
+    background-color: lightpink;
+ }
+
+ .child-2a{
+    background-color: lightblue;
+    width: 100px;
+ }
+
+ .child-2b{
+    background-color: lightpink;
+    flex: 1;
+ } */
+
+
+ .parent-header{
+    height: 75px;
+    border: 1px solid gray;
+    margin-top: 30px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+ }
+
+ .child-1{
+    /* flex: 1; */
+    width: 100px;
+    background-color: lightblue;
+ }
+
+ .child-2{
+    /* flex: 1; */
+    width: 100px;
+    background-color: lightcoral;
+ }
+
+ .child-3{
+    /* flex: 1; */
+    width: 100px;
+    background-color: lightsalmon;
+ }

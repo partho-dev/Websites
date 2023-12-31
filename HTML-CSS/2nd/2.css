@@ -1,0 +1,44 @@
+.sec-1{
+    height: 300px;
+    width: 400px;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+    margin: 1px;
+    background-color: #c8c7c3;
+}
+
+.first-line {
+    color: rgb(0, 113, 133);
+    font-size: 20px;
+}
+.third-line{
+    color: rgb(0, 118, 0);
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.forth-line{
+    font-weight: 100;
+}
+
+.cart-btn{
+    height: 36px;
+    width: 115px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(255, 216, 20);
+    /* font-size: 15px; */
+    font-weight: 600;
+    opacity: .8;
+}
+
+.buy-btn{
+    height: 36px;
+    width: 115px;
+    border-radius: 18px;
+    border: none;
+    background-color: rgb(255, 164, 28);
+    font-size: 15px;
+    font-weight: 600;
+    opacity: .8;
+    margin-left: 15px;
+}

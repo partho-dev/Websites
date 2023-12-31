@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: "Gilory"; */
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color:#D0D4CA; */
+    background-color: rgba(20, 19, 19, 0.821);
+}
+
+.tahoma{
+    color: white;
+    margin-left: 50px;
+    font-family: Tahoma;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.deals{
+    margin-left: 50px;
+    color: white;
+    padding-left: 20px;
+
+}
+
+.sales{
+    margin-left: 50px;
+    color: white;
+    margin-top: 10px;
+    font-style: italic;
+    color: red;
+    padding-left: 20px;
+}
+
+.apple{
+    margin-top: 30px;
+    margin-left: 50px;
+    color: white;
+    padding-left: 20px;
+    width: 400px;
+    text-align: center;
+}
+#learn{
+    color: rgba(13, 13, 158, 0.804);
+}

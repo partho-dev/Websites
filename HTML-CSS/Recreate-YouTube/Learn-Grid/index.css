@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parent{
+    margin: 25px;
+    /* width: 300px; */
+    border: 2px solid #454545;
+    /* background-color: #154c79; */
+    /* color: white; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.child-1{
+    /* display: inline-block; */
+    /* width: 150px; */
+    background-color: #76b5c5;
+    color: #454545;
+    height: 200px;
+}
+
+.child-2{
+    /* display: inline-block; */
+    /* width: 146px; */
+    background-color:#abdbe3;
+    height: 200px;
+}
