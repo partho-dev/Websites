@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilory";
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+height: 100vh;
+width: 100%;
+background-color: cadetblue;
+}
+
+.page2{
+    height:100vh;
+    width: 100%;
+    background-color: chocolate;
+    display: flex;
+    align-items: center;
+}
+
+.page3{
+    height:100vh;
+    width: 100%;
+    background-color: saddlebrown;
+    display: flex;
+    align-items: center;
+ }
+
+ .box{
+    height: 300px;
+    width: 300px;
+    background-color: seagreen;
+    clip-path: circle();
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+   
+ }

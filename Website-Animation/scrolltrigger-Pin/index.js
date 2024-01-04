@@ -33,7 +33,7 @@ gsap.to(".page2 img", {
 })
 
 gsap.to(".page3 h1", {
-    transform: "translateX(-125%)", /* This is needed to enable horizontal scrolling*/
+    transform: "translateX(-100%)", /* This is needed to enable horizontal scrolling*/
     scrollTrigger:{
         trigger:".page3",
         scroller:"body",
