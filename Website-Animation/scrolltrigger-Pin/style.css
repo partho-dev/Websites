@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilory";
+}
+
+html{
+        font-size: 62.5%;
+    }
+ body{
+        font-size: 1.6rem;
+    }
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: seagreen;
+}
+
+.page1 h1{
+    color:white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.box1{
+    height: 300px;
+    width: 300px;
+    background-color: orange;
+    clip-path: circle();
+}
+
+.box1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: cyan;
+}
+
+.page2 img{
+    height: 100%;
+    width: 1%;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    opacity:0
+    
+}
+.page2 h1{
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    bottom: 50%;
+    /* z-index: 1; */
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.page3 h1{
+    text-transform: uppercase;
+    font-size: 40vw;
+}
