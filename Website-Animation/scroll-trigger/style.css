@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Gilory";
+}
+
+html{
+        font-size: 62.5%;
+    }
+ body{
+        font-size: 1.6rem;
+    }
+
+html, body {
+    height: 100%;
+    width: 100%;
+    /* background-color:#D0D4CA; */
+    /* background-color: rgba(20, 19, 19, 0.821); */
+}
+
+
+.page1{
+    height: 100%;
+    width: 100%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page2{
+    height: 100%;
+    width: 100%;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle{
+    height: 400px;
+    width: 400px;
+    clip-path: circle();
+    background: linear-gradient(red, blue);
+}
